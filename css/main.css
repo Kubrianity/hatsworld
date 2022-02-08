@@ -1,0 +1,163 @@
+ .dropbtn {
+    display: none;
+  }
+
+
+.grid-container {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer{
+ 
+  width:100vw;
+  margin:auto;
+  
+
+}
+.footer-inside{
+  text-align:center;
+  margin:0 auto;
+ 
+ 
+}
+.flex-container {
+/*  display: -webkit-box;
+  display: -ms-flexbox;
+   -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      max-width: 1450px;*/
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  padding: 2em 2em;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.flex{
+  
+  text-align:center;
+  margin:auto;
+}
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.evolution {
+  
+  text-align: center;
+  margin: auto;
+}
+
+.headin {
+  padding-top: 17px;
+  font-style: italic;
+  font-family: san-serif;
+  letter-spacing: 4px;
+  font-size: 22px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact {
+  padding: 15px;
+  padding-top:30px;
+  font-weight: bold;
+  color: #312B27;
+  font-size: 22px;
+}
+
+#submit {
+  margin-left:5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  border: 1px;
+  background-color: #008CBA;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .dropbtn{
+    display:block;
+  }
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    padding: 15px;
+    grid-column-gap: 0.75em;
+    margin: 0.75em;
+  }
+
+  .evolution {
+    text-align: left;
+    margin-left: 50px;
+  }
+  .flex{
+    text-align:left;
+  }
+  .mob_pic {
+    float: right;
+    padding: 15px;
+    margin: 0.75em;
+    margin-top: -60px;
+  }
+  .mob {
+    width: 70%;
+  }
+  .cloche {
+    float: right;
+    padding: 15px;
+    margin: 0.75em;
+    margin-top: -60px;
+  }
+  .floppy {
+    float: right;
+    padding: 15px;
+    margin: 0.75em;
+    margin-top:-70px;
+  }
+  .item {
+    float: right;
+  }
+  .caption {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */
