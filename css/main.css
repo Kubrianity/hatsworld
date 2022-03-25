@@ -1,53 +1,20 @@
- .dropbtn {
-    display: none;
-  }
 
-
-.grid-container {
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-}
-.footer{
- 
-  width:100vw;
-  margin:auto;
-  
-
-}
-.footer-inside{
-  text-align:center;
-  margin:0 auto;
- 
- 
-}
 .flex-container {
-/*  display: -webkit-box;
-  display: -ms-flexbox;
-   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      max-width: 1450px;*/
   display: flex;
   justify-content: space-between;
   margin:auto;
   padding: 2em 2em;
 }
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-.flex{
-  
-  text-align:center;
-  margin:auto;
-}
 .dropbtn {
+  display:none;
   border: none;
   cursor: pointer;
   background-color: #ffffff;
 }
-
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
@@ -76,6 +43,29 @@
   display: block;
 }
 
+#intro{
+  margin:0 auto;
+  width:85%;
+  text-align:center;
+  padding:1em;
+}
+.item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-right:2em;
+}
+
+figcaption {
+  padding:1em;
+}
+
+.flex{
+  
+  text-align:center;
+  margin:auto;
+  padding:1.5em;
+}
 
 .evolution {
   
@@ -83,31 +73,24 @@
   margin: auto;
 }
 
-.headin {
-  padding-top: 17px;
+header, footer{
+  padding-top: 1.5em;
   font-style: italic;
   font-family: san-serif;
   letter-spacing: 4px;
-  font-size: 22px;
+  font-size: 1.3em;
   text-align: center;
-  margin: 0 auto;
-}
 
-.contact {
-  padding: 15px;
-  padding-top:30px;
-  font-weight: bold;
-  color: #312B27;
-  font-size: 22px;
 }
-
-#submit {
-  margin-left:5px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 15px;
-  border: 1px;
-  background-color: #008CBA;
+h4 {
+  font-style: italic;
+  letter-spacing: 2px;
+  font-family:'Brush Script Std', cursive;
+  font-size:1.5em;
+}
+.history_hats{
+  text-align:justify;
+  max-width:95%;
 }
 
 
@@ -115,49 +98,36 @@
   .dropbtn{
     display:block;
   }
-  .grid-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
-    padding: 15px;
-    grid-column-gap: 0.75em;
-    margin: 0.75em;
-  }
 
   .evolution {
     text-align: left;
     margin-left: 50px;
   }
+
   .flex{
     text-align:left;
   }
-  .mob_pic {
+  .hat_pic {
     float: right;
-    padding: 15px;
-    margin: 0.75em;
-    margin-top: -60px;
+    padding:0.5em;
+    margin:0.5em;
+    margin-top:-4.5em;
   }
-  .mob {
-    width: 70%;
-  }
-  .cloche {
-    float: right;
-    padding: 15px;
-    margin: 0.75em;
-    margin-top: -60px;
-  }
-  .floppy {
-    float: right;
-    padding: 15px;
-    margin: 0.75em;
-    margin-top:-70px;
-  }
+ article {
+  width:70%;
+  margin:1.5em;
+ }
   .item {
     float: right;
   }
-  .caption {
+  figcaption {
     text-align: center;
+    padding:0;
+  }
+
+  footer{
+
+    margin-top:2.5em;
+    
   }
 }
-/*# sourceMappingURL=main.css.map */
